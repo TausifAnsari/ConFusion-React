@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 
 
-# This fuction takes dish as a parametr and renders Dish on the page.
+//This fuction takes dish as a parametr and renders Dish on the page.
 function RenderDish({dish}) {
     if(!dish) {
         return (
@@ -21,7 +21,7 @@ function RenderDish({dish}) {
     }
 }
 
-# This fuction takes comment as a parameter and renders Comments on the page.
+//This fuction takes comment as a parameter and renders Comments on the page.
 function RenderComments({comments}) {
     console.log(comments);
     if(!comments) {
